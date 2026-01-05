@@ -1,4 +1,4 @@
-*{
+ *{
     margin:0;
     padding: 0;
 }
@@ -6,13 +6,15 @@
 body{
     background-color: #1d101c;
     color:#e6e6e6;
-    font-family: Arial,sans-serif;
+   
 }
 
 header{
     height: 300px;
     overflow: hidden;
 }
+
+
 
 header img{
     width : 100%;
@@ -27,6 +29,7 @@ h1{
     font-size: 4rem;
     color: #a10035;
     margin: 20px 0;
+    font-family: 'Winter Solstice', serif;
 }  
 
 
@@ -34,7 +37,9 @@ nav{
     background-color: #a1003686;
     padding: 10px;
     text-align: center;
+    font-family: 'Winter Solstice', serif;
 }
+
 
 nav a{
     color:#e6e6e6;
@@ -47,5 +52,87 @@ nav a{
 nav a:hover{
     color:#a10035;
 }
+ 
 
 
+#menu{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    margin:40px 0;
+}
+
+
+h2{
+    font-family: 'Winter Solstice', serif;
+    text-align: center;
+
+}
+
+.card{
+    border-color: #090909;
+    border: 2px solid #a10035;
+    border-radius: 10px;
+    padding: 20px;
+    width:250px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.card img{
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(161,0,53,0.8);
+}
+
+form{
+    background-color: #1a1a1a;
+    border: 2px solid #a10035;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin:40px auto;
+}
+
+input  textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    background-color: #0b0b0b;
+    border: 1px solid #a10035;
+    color: #e6e6e6;
+    border-radius: 5px;
+}
+
+
+button{
+    background-color: #a10035;
+    color:white;
+    border: none;
+    padding: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #e6004c;
+}
+
+footer{
+    margin-top:50px;
+    padding:20px;
+    text-align: center;
+    background-color: #a1003686;
+}
+
+footer p{
+    color: #080808;
+    font-size: 1rem;
+}
